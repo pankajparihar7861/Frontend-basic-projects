@@ -1,0 +1,79 @@
+<html>
+
+<head>
+    <title>HTML Example 2</title>
+
+    <style>
+        .form-control {
+            border: 1px solid rgb(241, 8, 190);
+            margin-top: 2px;
+            margin-bottom: 2px;
+       }
+
+        .form-label {
+            font: bold 10px 'times new roman';
+            margin-top: 1px;
+            margin-bottom: 1px;
+        }
+
+        #signup {
+            border: 7px solid rgb(114, 15, 226);
+            padding: 10px;
+            width: 200px;
+            background-color: rgb(142, 229, 19);
+        }
+
+        .btn{
+            border:none;
+            margin:10px 1px 5px 5px;
+            background-color: rgb(15, 211, 241);
+            border-radius: 5px;
+            padding:5px;
+            box-shadow: rgb(240, 13, 13) 2px 1px 2px;
+            float:right;
+        }
+
+        .btn:hover{
+            cursor: pointer;
+            box-shadow: none;
+        }
+    </style>
+    
+    <script>
+        function handleClick(){
+            var fname = document.getElementById("txtfname").value;
+            console.log("First name = " + fname);
+        }
+    </script>
+</head>
+
+<body>
+    <h1>HTML Form</h1>
+    <hr>
+
+    <div style="justify-content: center;display: grid;">
+        <div id="signup">
+            <p class="form-label">First Name</p>
+            <input type="text" placeholder="first name" class="form-control" id="txtfname">
+
+            <p class="form-label">Last Name</p>
+            <input type="text" placeholder="last name" class="form-control" id="txtlname">
+
+            <p class="form-label">Email Id</p>
+            <input type="email" placeholder="email id" class="form-control" id="txtemail">
+
+            <div>
+                <p class="form-label">Select Gender</p>
+                <input type="radio" value="Male" id="gmale" name="gender">
+                <label for="gmale">Male</label>
+
+                <input type="radio" value="Female" id="gfemale" name="gender">
+                <label for="gfemale">Female</label>
+            </div>
+
+            <button class="btn" onclick="handleClick()">Submit</button>
+        </div>
+    </div>
+</body>
+
+</html>

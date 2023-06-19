@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1"
+  />
+
+    <link
+    rel="stylesheet"
+    href=https://unpkg.com/swiper/swiper-bundle.min.css
+  />
+
+    <style>
+        /*.card{
+            box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+            transition: 0.3s;
+            width: 110px;
+        }
+        .card:hover{
+            box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+        }
+        .container{
+            padding: 2px 16px;
+        }*/
+
+        html,
+      body {
+        position: relative;
+        height: 100%;
+      }
+
+      body {
+        background: #eee;
+        font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+        font-size: 14px;
+        color: #000;
+        margin: 0;
+        padding: 0;
+      }
+
+      .swiper {
+        width: 90%;
+        height: 50%;
+      }
+
+      .swiper-slide {
+        text-align: center;
+        font-size: 18px;
+        background: #fff;
+
+        /* Center slide text vertically */
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        display: flex;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        -webkit-justify-content: center;
+        justify-content: center;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        -webkit-align-items: center;
+        align-items: center;
+      }
+
+      .swiper-slide img {
+        display: block;
+        width: 50%;
+        height: 50%;
+        object-fit: cover;
+      }
+    
+
+    </style>
+      
+
+    </style>
+</head>
+
+<nav style="background-color: rgb(34, 133, 48); height: 75px;">
+    <h1 style=" margin-left: 60px; padding-top: 20px; color: white; font-size:35px;">Stanley's Pharmacy
+       
+        <button onclick="location.href='signin_form.html'" style ="margin-left:700px ;" >Sign Up</button>
+
+        <button  onclick="location.href='login_form.html'" style="margin-left:10px ;">Login</button>
+
+    </h1>
+    </nav>
+    <div style="margin-top: 20px;">
+        <img src=https://thumbs.dreamstime.com/b/pharmacy-otc-products-turkey-64209774.jpg  height="180"  style="margin-left: 27px;">
+        <img src="https://img.freepik.com/free-photo/young-woman-pharmacist-pharmacy_1303-25541.jpg?w=2000"  height="180" style="margin-left: 30px;">
+        <img src=https://t3.ftcdn.net/jpg/01/80/07/28/360_F_180072866_Lu1U9rSzW5bZplz0IJRWPR7aaDZNdqNp.jpg  height="180" style="margin-left: 30px;">
+        <img src=https://www.meitra.com/public/upload_file/62c80bfcbce9c1657277436.jpg  height="180" style="margin-left: 30px;">
+    </div>
+    <h2>Stanley's Pharmacy</h2>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facilis eius eligendi possimus ut sequi non architecto expedita, cum voluptatibus id esse ipsum tempora placeat doloremque pariatur assumenda quaerat, quisquam rem! Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo dolore animi recusandae libero ratione, fuga quam repellendus qui. Natus vitae alias impedit perferendis et ullam tempora atque iure fugiat soluta? Lorem ipsum dolor sit amet consectetur, adipisicing elit. Corporis similique culpa doloremque voluptates inventore. Impedit asperiores distinctio nam? Maiores, itaque? Incidunt voluptate tenetur ipsam qui libero, neque placeat. Excepturi, blanditiis!</p>
+     <p style="margin-left: 150px;">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laudantium, aliquid. Adipisci quasi maiores necessitatibus, alias quo, ex repellendus numquam tempore deserunt facilis, unde quos? Reprehenderit aliquid consequatur maxime debitis quis? Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis excepturi, vero itaque quo numquam tempora soluta natus ut ab commodi laborum praesentium reprehenderit earum non, blanditiis, eveniet error saepe at.</p>
+<div class="main">
+    <div class="swiper mySwiper">
+        <div class="swiper-wrapper">
+  
+          <div class="swiper-slide">
+              <div class="card">
+                  <img src=https://thumbs.dreamstime.com/b/pharmacy-otc-products-turkey-64209774.jpg alt="medicine" style="width: 300px;margin-left: auto;margin-right: auto;">
+                  <div class="container">
+                      <h4><b>Hydrocodone</b></h4>
+                      <p>Hydrocodone was first patented in 1923, with the long-acting formulation being approved in 2013. 
+                      </p>      
+                  </div>       
+              </div>
+          </div>
+  
+          <div class="swiper-slide">
+              <div class="card">
+                  <img src=https://thumbs.dreamstime.com/b/pharmacy-otc-products-turkey-64209774.jpg alt="medicine" style="width: 300px;margin-left: auto;margin-right: auto;">
+                  <div class="container">
+                      <h4><b>Metformin</b></h4>
+                      <p>It is a prescribed medicine used to treat type 2 diabetes and even prevent.
+                      </p>      
+                  </div>       
+              </div>
+          </div>
+          <div class="swiper-slide">
+              <div class="card">
+                  <img src=https://thumbs.dreamstime.com/b/pharmacy-otc-products-turkey-64209774.jpg alt="medicine" style="width: 300px;margin-left: auto;margin-right: auto;">
+                  <div class="container">
+                      <h4><b>Losartan</b></h4>
+                      <p>It is used to treat high blood pressure by blocking a substance in the body that causes the blood. 
+                      </p>      
+                  </div>       
+              </div>
+          </div>
+          <div class="swiper-slide">
+              <div class="card">
+                  <img src="https://img.freepik.com/free-photo/young-woman-pharmacist-pharmacy_1303-25541.jpg?w=2000" alt="medicine" style="width: 300px;margin-left: auto;margin-right: auto;">
+                  <div class="container">
+                      <h4><b>Antibiotics</b></h4>
+                      <p>These are prescribed medicines that fight off bacterial infections.. 
+                      </p>      
+                  </div>       
+              </div>
+          </div>
+          <div class="swiper-slide">
+              <div class="card">
+                  <img src="https://img.freepik.com/free-photo/young-woman-pharmacist-pharmacy_1303-25541.jpg?w=2000" alt="medicine" style="width: 300px;margin-left: auto;margin-right: auto;">
+                  <div class="container">
+                      <h4><b>Albuterol</b></h4>
+                      <p>This medicine prevents and treats breathing difficulties, wheezing, coughing, and other related conditions. 
+                      </p>      
+                  </div>       
+              </div>
+          </div>
+          <div class="swiper-slide">
+              <div class="card">
+                  <img src="https://img.freepik.com/free-photo/young-woman-pharmacist-pharmacy_1303-25541.jpg?w=2000" alt="medicine" style="width: 300px;margin-left: auto;margin-right: auto;">
+                  <div class="container">
+                      <h4><b>Antihistamines</b></h4>
+                      <p>These are commonly used to treat allergies and symptoms such as sneezing and rashes. . 
+                      </p>      
+                  </div>       
+              </div>
+          </div>
+          <div class="swiper-slide">
+              <div class="card">
+                  <img src=https://t3.ftcdn.net/jpg/01/80/07/28/360_F_180072866_Lu1U9rSzW5bZplz0IJRWPR7aaDZNdqNp.jpg alt="medicine" style="width: 300px;margin-left: auto;margin-right: auto;">
+                  <div class="container">
+                      <h4><b>Gabapentin</b></h4>
+                      <p>It is an antiepileptic/anticonvulsant drug used with other medications to prevent and control seizures. 
+                      </p>      
+                  </div>       
+              </div>
+          </div>
+          <div class="swiper-slide">
+              <div class="card">
+                  <img src=https://t3.ftcdn.net/jpg/01/80/07/28/360_F_180072866_Lu1U9rSzW5bZplz0IJRWPR7aaDZNdqNp.jpg alt="medicine" style="width: 300px;margin-left: auto;margin-right: auto;">
+                  <div class="container">
+                      <h4><b>Omeprazole</b></h4>
+                      <p>This medication is usually prescribed to someone experiencing gastroesophageal reflux disease (GERD). 
+                      </p>      
+                  </div>       
+              </div>
+          </div>
+          <div class="swiper-slide">
+              <div class="card">
+                  <img src=https://t3.ftcdn.net/jpg/01/80/07/28/360_F_180072866_Lu1U9rSzW5bZplz0IJRWPR7aaDZNdqNp.jpg alt="medicine" style="width: 300px;margin-left: auto;margin-right: auto;">
+                  <div class="container">
+                      <h4><b> Levothyroxine</b></h4>
+                      <p>It is used to treat an underactive thyroid gland condition called hypothyroidism thyroid hormones.
+                      </p>      
+                  </div>       
+              </div>
+          </div>
+        </div>
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-pagination"></div>
+      </div>
+  
+      <!-- Swiper JS -->
+      <script src=https://unpkg.com/swiper/swiper-bundle.min.js></script>
+  
+      <!-- Initialize Swiper -->
+      <script>
+        var swiper = new Swiper(".mySwiper", {
+          slidesPerView: 3,
+          spaceBetween: 30,
+          slidesPerGroup: 3,
+          loop: true,
+          loopFillGroupWithBlank: true,
+          pagination: {
+            el: ".swiper-pagination",
+            clickable: true,
+          },
+          navigation: {
+            nextEl: ".swiper-button-next",
+            prevEl: ".swiper-button-prev",
+          },
+        });
+      </script>
+     </div>
+    </body>
+</html>
+

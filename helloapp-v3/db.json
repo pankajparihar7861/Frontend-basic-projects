@@ -1,0 +1,17 @@
+{
+    "branch":[
+        {"id":61,"city":"Mumbai"},
+        {"id":62,"city":"Delhi"},
+        {"id":63,"city":"Pune"},
+        {"id":64,"city":"Chennai"},
+        {"id":65,"city":"Hyderabad"},
+        {"id":66,"city":"Bangalore"}
+    ], 
+
+    "loan":[
+        {"id":51, "category":"Car", "roi":8.5, "maxtenure":5},
+        {"id":52, "category":"Bike", "roi":8.2, "maxtenure":3},
+        {"id":53, "category":"Business", "roi":3.6, "maxtenure":10},
+        {"id":54, "category":"Home", "roi":9.4, "maxtenure":20}
+    ]
+}
